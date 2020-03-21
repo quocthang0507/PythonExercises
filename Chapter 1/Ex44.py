@@ -25,6 +25,6 @@ if __name__ == "__main__":
         n = eval(input('n = '))
         if n > 0:
             break
-    print('Length of {}: '.format(n), SumOfDigit(n))
-    print('Length of {}: '.format(n), SumOfDigit_2(n))
-    print('Length of {}: '.format(n), SumOfDigit_3(n))
+    print('Total digit of {}: '.format(n), SumOfDigit(n))
+    print('Total digit of {}: '.format(n), SumOfDigit_2(n))
+    print('Total digit of {}: '.format(n), SumOfDigit_3(n))
